@@ -1,0 +1,1067 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+/* ========================
+       header part start
+============================== */
+header{
+    padding: 20px 0;
+}
+header .item{
+        position: relative;
+        padding-left: 30px;
+        
+
+}
+header .item .line{
+    width: 1px;
+    height: 30px;
+    background-color: #ea3a60;
+    position: absolute;
+    top: 10px;
+    left: 235px;
+}
+    header .item .one{
+    width: 1px;
+    height: 30px;
+    background-color: #ea3a60;
+    position: absolute;
+    top: 10px;
+    left: 150px;
+    }
+
+header .last{
+    border: 0;
+}
+header .item i{
+    font-size: 20px;
+    color: #ea3a60;
+    position: absolute;
+    top: 12px;
+    left: 0;
+    
+}
+header .item p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+    margin-left: 10px;
+}
+header .item .number{
+    color: black;
+    font-weight: 600;
+}
+header .icon{
+    text-align: right;
+}
+header .icon i{
+   
+    font-size: 20px;
+    color: #ea3a60;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+
+/* ========================
+       header part end
+============================== */
+/* ========================
+      navbar part start
+============================== */
+nav{
+    background-color: #ea3a60;
+    padding: 30px 0 !important;
+    
+}
+nav ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: white !important;
+    margin-left: 10px;
+}
+nav ul .dropdown .dropdown-menu a{
+    color: black !important;
+}
+
+/* ========================
+       navbar part end
+============================== */
+/* ========================
+       banner part start
+============================== */
+#banner-part {
+    background: url(../images/bg.png) center no-repeat ;
+    background-size: cover;
+   
+   
+}
+#banner-part .overlay{
+    background-color: rgba(61, 45, 45,0.45);
+    width: 100%;
+    height: 100%;
+    padding: 140px 0;
+}
+#banner-part .overlay .box{
+    width: 650px;
+    background-color: #ea3a60;
+    padding: 120px 50px;
+    
+}
+#banner-part .overlay .box h3{
+    
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #fff;
+        
+}
+#banner-part .overlay .box h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 55px;
+    margin: 10px 0;
+}   
+#banner-part .overlay .box p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+#banner-part .overlay .box a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    display: inline-block;
+    border: 1px solid #fff;
+    margin: 40px 0;
+    margin-right: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+#banner-part .overlay .box a:hover{
+    background-color: #fff;
+    color: #ea3a60;
+}
+#banner-part .overlay .box .first{
+    background-color: #fff;
+    color: #ea3a60;
+    transition: 0.4s;
+}
+#banner-part .overlay .box .first:hover{
+    color: #fff;
+    background-color: #ea3a60;
+}
+
+/* ========================
+       banner part end
+============================== */
+/* ========================
+       solution part start
+============================== */
+#solution{
+    margin-top: 120px;
+}
+#solution  img{
+    width: 100%;
+    
+}
+#solution .box{
+    
+    color: #fff;
+    text-align: center;
+    
+}
+
+#solution .box .years{
+    background-color: #ea3a60;
+    padding: 20px 0;
+}
+#solution .box h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 74px;
+    font-weight: 700;
+}
+#solution .box h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+#solution .main{
+    margin-left: 45px;
+    position: relative;
+}
+#solution .main h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #232323;
+    font-size: 42px;
+}
+#solution .main .line{
+    width: 70px;
+    height: 3px;
+    background-color: #ea3a60;
+}
+#solution .main p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+    margin: 10px 0;
+    line-height: 27px;
+
+}
+#solution .main a{
+    border: 1px solid #ea3a60;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #ea3a60;
+    position: absolute;
+    top: 110%;
+    left: 0%;
+   
+}
+/* ========================
+       solution part end
+============================== */
+/* ========================
+       chose part Start
+============================== */
+#chose{
+    margin-top: 120px;
+    position: relative;
+}
+#chose  img{
+   width: 100%;
+   margin-left: 30px;
+}
+#chose .box{ 
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    
+}
+
+#chose .box .years{
+    background-color: #ea3a60;
+    padding: 20px 0;
+}
+#chose .box h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 74px;
+    font-weight: 700;
+}
+#chose .box h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+#chose .main{
+    
+    position: relative;
+}
+#chose .main h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #232323;
+    font-size: 42px;
+}
+#chose .main .line{
+    width: 70px;
+    height: 3px;
+    background-color: #ea3a60;
+    margin: 15px 0;
+ 
+}
+#chose .main p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+    
+    
+    line-height: 27px;
+
+}
+#chose .main .icon{
+    position: relative;
+    padding: 0 70px;
+    margin: 20px 0;
+}
+#chose .main i{
+
+    font-size: 25px;
+    color: #fff;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 55px;
+    background-color: #ea3a60;
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+#chose .icon h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #232323;
+    font-size: 22px;
+}
+
+/* ========================
+       chose part end
+============================== */
+/* ========================
+       Offer part start
+============================== */
+#offer{
+    background-color: #f8f8f8;
+    margin-top: 120px;
+    padding: 80px 0;
+}
+#offer h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #232323;
+    font-size: 42px;
+    
+}
+
+#offer p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+    border-left: 2px solid #ea3a60;
+    padding-left: 20px;
+    width: 590px;
+}
+#offer .row{
+    margin-bottom: 35px;
+}
+#offer .item{
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+#offer .item i{
+
+     font-size: 30px;
+     color: #ea3a60;
+
+}
+#offer .item h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #232323;
+    font-size: 22px;
+    padding: 15px 0;
+}
+#offer .item p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+    border: none;
+    width: 97%;
+    margin: 0 auto;
+    
+}
+
+
+/* ========================
+       offer part end
+============================== */
+/* ********************************
+    team part start
+   ******************************** */
+   #team{
+       position: relative;
+       margin-top: 110px;
+   }
+   #team h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #232323;
+    font-size: 42px;
+    text-align: center;
+    margin: 30px 0;
+  
+   }
+   #team .main .line{
+    width: 70px;
+    height: 3px;
+    background-color: #ea3a60;
+    margin: 20px 0;
+    position: absolute;
+    top: 40px;
+    left: 48%;
+
+ 
+}
+#team .main p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+    text-align: center;
+    width: 740px;
+    margin: 0 auto;
+}
+#team  img{
+    width: 100%;
+  
+    height: 100%;
+    
+}
+#team .box{
+    
+    color: #fff;
+    text-align: center;
+   position: relative;
+   margin-top: 55px;
+    
+}
+ 
+
+
+#team .box .years{
+    background-color: #ea3a60;
+    padding: 40px 0;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transition: 0.4s;
+}
+#team .box.box:hover .years{
+    opacity: 0;
+}
+#team .box.box:hover .overlay{
+    opacity: 1;
+}
+
+
+#team .box h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #f8f8f8;
+}
+#team .box .overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(234, 58, 96, .8);
+   position: absolute;
+   top: 0;
+   left: 0;
+   opacity: 1;
+   font-size: 200px;
+   color: #fff;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   opacity: 0;
+   transition: 0.4s;
+  
+}
+
+/* ********************************
+    team part End
+   ******************************** */
+/* ********************************
+    counter part start
+   ******************************** */
+   #counter {
+       margin-top: 100px;
+       background: url(../images/counter.png) no-repeat center;
+       
+       background-size: cover;
+       
+   }
+   #counter .overlay{
+       background-color: #ea3a60b6;
+       width: 100%;
+       
+   }
+   #counter .text{
+       text-align: center;
+       padding: 120px 0;
+
+   }
+   #counter .details .text h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 74px;
+    font-weight: 700;
+    color: #f8f8f8;
+   }
+   #counter .details .text p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0 auto;
+   }
+/* ********************************
+    counter part End
+   ******************************** */
+/* ********************************
+    freque  part start
+   ******************************** */
+   #freque{
+       margin-top: 100px;
+       display: flex;
+       position: relative;
+   }
+   #freque .main h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #232323;
+    font-size: 42px;
+}
+#freque .main .line{
+    width: 70px;
+    height: 3px;
+    background-color: #ea3a60;
+    margin: 15px 0;
+ 
+}
+#freque .main p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+    width: 100%
+}
+#freque .accordion{
+    margin: 50px 0;
+   
+}
+#freque .accordion .accordion-item{
+    margin: 20px 0;
+}
+#freque .accordion .accordion-item .accordion-header button{
+ background-color: #ea3a60;
+ font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #232323;
+    font-size: 18px;
+    padding: 30px 20px;
+}
+#freque .accordion .accordion-body p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #555;
+}
+#freque .accordion .collapsed{
+    background-color: rgba(234, 58, 96, 0.13) !important;
+}
+#freque img {
+    width: 100%;
+    width: 50%;
+    justify-content: right;
+
+
+}
+#freque .right {
+    background: url(../images/bg--0cMZsa.png) no-repeat center;
+    background-size: cover;
+    
+    width: 50%;
+   text-align: right;
+   position: absolute;
+   top: 0;
+   right: 0;
+   height: 93%;
+}
+/* ********************************
+    plan part start
+   ******************************** */
+  #plan{
+    margin-top: 110px;
+    background-color: #f8f8f8;
+    margin-top: 120px;
+    padding: 80px 0;
+
+}
+#plan h3{
+ font-family: 'Poppins', sans-serif;
+ font-weight: 700;
+ color: #232323;
+ font-size: 42px;
+ text-align: center;
+ margin: 30px 0;
+
+}
+#plan .main{
+    position: relative;
+}
+#plan .main .line{
+ width: 70px;
+ height: 3px;
+ background-color: #ea3a60;
+ margin: 20px 0;
+ position: absolute;
+ top: 40px;
+ left: 48%;
+
+
+}
+#plan .main p{
+ font-family: 'Roboto', sans-serif;
+ font-size: 16px;
+ font-weight: 400;
+ color: #555;
+ text-align: center;
+ width: 740px;
+ margin: 0 auto;
+}
+#plan .row .heading{
+    width: 100%;
+    background-color: #ea3a60;
+    padding: 30px 70px;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#plan .details{
+    background-color: white;
+}
+#plan .row .heading h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #f8f8f8;
+    font-size: 42px;
+    
+} 
+
+#plan .row .heading .small{
+     position: absolute;
+     top: 45%;
+     left: 50%;
+   
+}
+#plan .row .heading .small h6{
+    font-family: 'Roboto', sans-serif;
+ font-size: 22px;
+ font-weight: 400;
+ color: #f8f8f8;
+ text-align: center;
+}
+#plan .row  .li{
+    padding-bottom: 100px;
+}
+#plan .row  .li ul li {
+font-family: 'Roboto', sans-serif;
+ font-size: 18px;
+ font-weight: 400;
+ color: #555;
+ list-style: none;
+
+ padding: 10px 10px;
+ 
+}
+#plan .row  .li ul li i{
+    margin-right: 7px;
+    font-size: 18px;
+    color: rgb(0, 128, 0);
+   
+}
+#plan .row  .li .one i{
+    color: #ea3a60;
+}
+/* ********************************
+    plan part End
+   ******************************** */
+/* ********************************
+    client part start
+   ******************************** */
+   #client{
+       margin-top: 100px;
+
+   }
+   #client h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #232323;
+    font-size: 42px;
+    text-align: center;
+    margin: 30px 0;
+   
+   }
+   #client .main{
+       position: relative;
+   }
+   #client .main .line{
+    width: 70px;
+    height: 3px;
+    background-color: #ea3a60;
+    margin: 20px 0;
+    position: absolute;
+    top: 40px;
+    left: 48%;
+   
+   
+   }
+   #client .totalpart{
+       margin-top: 50px;
+   }
+   #client .main p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+    text-align: center;
+    width: 740px;
+    margin: 0 auto;
+   }
+   #client .row .detail p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+    
+   }
+   #client .row .detail .rounded{
+       padding: 40px 25px !important;
+   }
+   #client .row .detail .picture{
+       text-align: right;
+       position: relative;
+      padding-right: 15px
+   }
+   #client .row .detail .picture h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #555;
+    font-size: 18px;
+   }
+   #client .row .detail .picture span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #555;
+   }
+   #client .row .detail .picture img{
+       margin-bottom: 20px;
+       font-size: 20px;
+   }
+   #client .row .detail .picture .quta{
+       position: absolute;
+       top: -35px;
+      right: -20px;
+      height: 30px;
+      width: 35px;
+   }
+/* ********************************
+    client part End
+   ******************************** */
+/* ********************************
+    mission part start
+   ******************************** */
+   #mission{
+     
+       width: 100%;
+       background-color: #ea3a60;
+       margin-top: 100px;
+       padding: 115px 0;
+       
+   }
+   #mission .image img{
+       width: 100%;
+      
+   }
+   #mission .text {
+       margin-left: 50px;
+   }
+   #mission .text h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #f8f8f8;
+    font-size: 42px;
+}
+#mission .text .line{
+    width: 70px;
+    height: 3px;
+    background-color: #f8f8f8;
+    margin: 15px 0;
+ 
+}
+#mission .text p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #f8f8f8;
+    width: 100%;
+    margin-bottom: 50px;
+
+}
+#mission .text .round1{
+    height: 80px;
+    width: 80px;
+    border: 1px solid #f8f8f8;
+    border-radius: 50%;
+    position: relative;
+    transition: 00.4s;
+}
+#mission .text .round1 .round2{
+    height: 60px;
+    width: 60px;
+    background-color: #f8f8f8;
+    border-radius: 50%;
+    position: absolute;
+    top: 12%;
+    left: 12%;
+    
+   
+}
+#mission .text .round1 .round2 i{
+  font-size: 20px;
+  
+ color: #ea3a60;
+ position: absolute;
+ top: 50%;
+ left: 40%;
+ transform: translateY(-50%);
+}
+#mission .text .round:hover .round1{
+    background-color: #f8f8f8;
+}
+/* ********************************
+    mission part End
+   ******************************** */
+/* ********************************
+    news part start
+   ******************************** */
+ #news{
+    margin-top: 100px;
+
+}
+#news h3{
+ font-family: 'Poppins', sans-serif;
+ font-weight: 700;
+ color: #232323;
+ font-size: 42px;
+ text-align: center;
+ margin: 30px 0;
+
+}
+#news .main{
+    position: relative;
+}
+#news .main .line{
+ width: 70px;
+ height: 3px;
+ background-color: #ea3a60;
+ margin: 20px 0;
+ position: absolute;
+ top: 40px;
+ left: 48%;
+
+
+}
+#news .main p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+    text-align: center;
+    width: 740px;
+    margin: 0 auto;
+}
+#news .detail{
+    transition: 0.4s;
+    margin-top: 55px;
+}
+#news .detail .image{
+    overflow: hidden;
+   
+}
+#news .detail img{
+    width: 100%;
+    transform: scale(1);
+    transition: 0.4s;
+    
+}
+#news .detail:hover img{
+    transform: scale(1.1);
+    
+}
+#news .detail:hover .overflow{
+    opacity: 1;
+}
+#news .detail .text .ankor{
+  padding: 20px;
+}
+
+
+#news .detail a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #232323;
+    font-size: 22px;
+    text-align: center;
+    margin: 0 auto;
+    transition: 0.4s;
+   
+   
+}
+#news .detail a:hover{
+    color: #ea3a60;
+}
+#news .detail .text{
+    width: 100% !important;
+}
+#news .detail .text .date{
+    border: 1px solid #ebebeb;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-left: none;
+    border-right: none;
+    padding: 10px 20px;
+}
+#news .detail .text .date .date1 a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+    transition: 0.4s;
+}
+#news .detail .text .date .date1 a:hover{
+    color: #ea3a60;
+}
+#news .detail .text .date .date1{
+    font-size: 16px;
+    
+    color: #555;
+}
+#news .detail .text .date .coment{
+    font-size: 16px;
+    
+    color: #555;
+}
+#news .detail .text .date .coment a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+}
+#news .detail .text .date .coment a:hover{
+    color: #ea3a60;
+}
+.p-3 {
+    padding: 0 !important;
+}
+#news .detail .text p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+    padding: 22px;
+}
+#news .detail .overflow{
+    background-color: #ea3a60;
+    opacity: 0.2;
+    height: 5px;
+}
+/* ********************************
+    news part end
+   ******************************** */
+/* ********************************
+    footer part start
+   ******************************** */
+   #footer{
+       margin-top: 80px;
+       background: url(../images/footer\ heading.png) no-repeat center;
+       background-size: cover;
+      
+   }
+   #footer .main{
+       padding: 75px 0;
+   }
+   #footer .detail p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+    margin: 20px 0;
+    width: 75%;
+    line-height: 27px;
+   }
+   #footer .detail a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #232323;
+    font-size: 30px;
+    margin-bottom: 5px;
+    display: block;
+    transition: 0.4s;
+   }
+   #footer .detail a:hover{
+       color: #ea3a60;
+   }
+   #footer .detail span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #555;
+   }
+   #footer  .text h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #232323;
+    font-size: 26px;
+    margin-bottom: 20px;
+   }
+   #footer .text ul{
+       padding-left: 0 !important;
+   }
+   #footer .text ul li{
+    list-style: none;
+     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+    line-height: 27px;
+    padding: 7px 0;
+    transition: 0.4s;
+   
+   }
+   #footer .text ul li:hover{
+       color: #ea3a60;
+      
+   }
+   #footer p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+    line-height: 27px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 80px;
+   }
+   /* ********************************
+    footer part start
+   ******************************** */

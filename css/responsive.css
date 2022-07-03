@@ -1,0 +1,273 @@
+@media (min-width: 320px) and (max-width: 575px){
+    header .item .one {
+       
+        background-color: transparent;
+       
+    }
+    header .item .line {
+        
+        background-color: transparent;
+     
+    }
+    header .icon {
+        text-align: left;
+    }
+    nav .navbar-brand img{
+        width: 80%;
+        margin-bottom: 50px;
+    }
+    nav .navbar-toggler span i{
+        color: white;
+        font-size: 25px;
+    }
+    nav .navbar-toggler  .collapsed{
+        border: 0;
+    }
+    #banner-part .overlay .box {
+       
+        background-color: transparent;
+        width: auto;
+        
+    }
+    #banner-part .overlay .box h3 {
+      
+        font-size: 15px;
+    
+    }
+    #banner-part .overlay .box h1 {
+       
+        font-size: 25px;
+       
+    }
+    #banner-part .overlay .box p {
+  
+        font-size: 14px;
+       
+    }
+    #banner-part .overlay .box a {
+        margin-top: 20px;
+    }
+    #banner-part .overlay .box a {
+       margin-top: 20px;
+    }
+    #solution .box h2 {
+       
+        font-size: 40px;
+      
+    }
+    #solution .box h3 {
+       
+        font-size: 17px;
+        
+    }
+    #solution .main h3 {
+
+        font-size: 17px;
+        margin-top: 25px;
+    }
+    #solution .main p {
+    font-size: 14px;
+   }
+   #chose .main h3 {
+    font-size: 30px;
+}
+#chose .main p {
+	font-size: 14px;
+
+}
+#chose .main i {
+	font-size: 20px;
+height: 40px;
+	width: 40px;
+	line-height: 38px;
+    top: 0px;
+	left: 0;
+}
+#chose .icon h4 {
+	font-size: 17px;
+	
+}
+#offer h3 {
+  font-size: 30px;
+}
+#offer p {
+	font-size: 14px;
+	border-left: 2px solid transparent;
+	padding-left: 0;
+	width: auto;
+	margin-top: 20px;
+}
+#banner-part .overlay .box {
+	width: auto;
+
+	padding: 0px 0;
+}
+#solution .main a {
+
+	top: 105%;
+	left: 0%;
+}
+#team h3 {
+font-size: 30px;
+
+}
+#team .main .line {
+background-color: transparent;
+	
+}
+#team .main p {
+font-size: 14px;
+	width: auto;
+
+}
+#plan h3 {
+
+	font-size: 30px;
+
+}
+#plan .main .line {
+
+	background-color: transparent;
+
+}
+#plan .main p {
+
+	font-size: 14px;
+    width: auto;
+	
+}
+#client h3 {
+ font-size: 30px;
+	
+}
+#client .main .line {
+	background-color: transparent;
+
+}
+#client .main p {
+
+	font-size: 14px;
+
+	width: auto;
+	
+}
+#mission .text h3 {
+font-size: 30px;
+	margin-top: 30px;
+}
+#mission .text p {
+
+	font-size: 14px;
+	
+	width: auto;
+	
+}
+#news h3 {
+	font-size: 30px;
+
+}
+#news .main .line {
+
+	background-color: transparent;
+
+}
+#news .main p {
+
+	font-size: 14px;
+
+}
+#footer .text h3 {
+	
+	margin-top: 50px;
+}
+
+
+
+
+    /* ===== */
+}
+@media (min-width: 576px) and (max-width: 767px){
+    header .item .one {
+       
+        background-color: transparent;
+       
+    }  
+    #banner-part .overlay .box {
+       
+        background-color: transparent;
+     
+    }
+    #solution .main {
+        margin-left: auto;
+       margin-top: 50px;
+    }
+    #offer p {
+      
+        font-size: 16px;
+       
+        border-left: 2px solid transparent;
+        padding-left: 0;
+        width: auto;
+        margin-top: 20px;
+    }
+    #team .main .line {
+       
+        background-color: transparent;
+       
+    }
+    #team .main p {
+       
+        width: auto;
+       
+    }
+    #plan .main p {
+      
+        width: auto;
+      
+    }
+    #client .main p {
+       
+        width: auto;
+    }
+    #mission .text h3 {
+      
+        margin-top: 20px;
+    }
+    #news .main p {
+      
+        width: auto;
+       
+    }
+    /* =========== */
+}@media (min-width: 768px) and (max-width: 991px){
+  
+    #banner-part .overlay .box {
+        
+        background-color: transparent;
+      
+    }
+    #team .main p {
+       
+        width: auto;
+       
+    }
+  
+  
+  
+  
+  
+    /* ======= */
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    #banner-part .overlay .box {
+        
+        padding: 50px 50px;
+    }
+ 
+ 
+    /* =============== */
+}
+@media (min-width: 1200px) and (max-width: 1399px){
+
+    /* ====================== */
+}
